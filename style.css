@@ -1,0 +1,28 @@
+body {
+    background-color:blueviolet;
+}
+
+.inbox {
+    background-color:white;
+    max-width:400px;
+    margin:50px auto;
+    border-radius:10px
+}
+
+.item {
+    display:flex;
+    align-items:center;
+    border-bottom: 1px solid #d0cdcd;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+input {
+    margin:20px;
+}
+
+input:checked + p {
+    text-decoration:line-through;
+}
