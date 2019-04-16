@@ -13,6 +13,7 @@ body {
     display:flex;
     align-items:center;
     border-bottom: 1px solid #d0cdcd;
+    padding-bottom:5px;
 }
 
 .item:last-child {
